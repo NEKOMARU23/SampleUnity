@@ -97,3 +97,9 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Unity Burst Compiler の巨大なランタイムファイルを除外
+/[Ll]ibrary/PackageCache/com.unity.burst@*/.Runtime/
+
+# もしくは、PackageCache 全体を除外（必要に応じて）
+/[Ll]ibrary/PackageCache/
